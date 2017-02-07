@@ -25,6 +25,6 @@ ENV HW_REPOSITORY_URL="https://github.com/hadoopware/hadoopware.io.git"
 RUN git clone $HW_REPOSITORY_URL $INSTALL_HOME
 
 ## Run ##
-CMD ["$INSTALL_HOME/bin/start.sh"]
+CMD ["/opt/hadoopware.io/bin/start.sh"]
 
 
