@@ -1,2 +1,2 @@
 # hadoopware.io
-website
+Website for the project
