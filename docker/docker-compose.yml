@@ -1,0 +1,12 @@
+base:
+    # build: .
+    image: hadoopware/hadoopware.io
+    privileged: true
+    hostname: hadoopware.io
+    ports:
+        - "4000:4000"     # nodejs
+    # net: "host"
+    # extra_hosts:
+    #     - "kerberos:127.0.0.1"
+    environment:
+        - USE_LOCAL_REPOSITORIES=true
