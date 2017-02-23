@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run hadoopware/hadoopware.io
+docker run -p 4000:4000 hadoopware/hadoopware.io 
